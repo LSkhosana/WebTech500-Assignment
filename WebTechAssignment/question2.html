@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,30p;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,30p;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/question2.css">
+    <title>Question 2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Customer Information</h1>
+            <div class="line"></div>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="number">Student Number:</label><br>
+                    <input type="number" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="number">Contact Number:</label><br>
+                    <input type="number" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="number">WhatsApp Number (optional):</label><br>
+                    <input type="number" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="name" name="name" required>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div style="margin-top: 40px;" class="container">
+        <div class="form-container">
+            <h1>Order Selection</h1>
+            <div class="line" style="margin-bottom: 20px;"></div>
+            <label for="text">Select Food Truck:</label><br>
+            <select class="select" name="order" id="order">
+                <option value="" disabled selected>Select your order</option>
+                <option value="1">Order 1</option>
+                <option value="2">Order 2</option>
+                <option value="3">Order 3</option>
+                <option value="4">Order 4</option>
+            </select><br><br>
+            <label for="text">Portion Sizes</label><br>
+            <div class="radio">
+                <div style="display: flex;"><input type="radio"><p>small</p></div>
+                <div style="display: flex;"><input type="radio"><p>medium</p></div>
+                <div style="display: flex;"><input type="radio"><p>large</p></div>
+            </div>
+            <br>
+
+            <label for="text">Extra Topping/Sauces</label><br>
+            <div class="radio">
+                <div style="display: flex;"><input type="checkbox"><p>Extra Cheese</p></div>
+                <div style="display: flex;"><input type="checkbox"><p>Special Sauce</p></div>
+                <div style="display: flex;"><input type="checkbox"><p>Make it spicy</p></div>
+            </div>
+
+            <br>
+            <label for="text">Special Instructions:</label><br>
+            <textarea name="Instructions" id="inst"></textarea>
+        </div>
+    </div>
+
+    <div style="margin-top: 40px;" class="container">
+        <div class="form-container">
+            <h1>Order Detils</h1>
+            <div class="line" style="margin-bottom: 20px;"></div>
+            <label for="text">Pickup Time:</label><br>
+            <select class="select" name="order" id="order">
+                <option value="" disabled selected>Select Pickup Time</option>
+                <option value="1">Order 1</option>
+                <option value="2">Order 2</option>
+                <option value="3">Order 3</option>
+                <option value="4">Order 4</option>
+            </select><br><br>
+            <label for="text">Payment Method:</label><br>
+             <div class="radio">
+                <div style="display: flex;"><input type="radio"><p>Cash</p></div>
+                <div style="display: flex;"><input type="radio"><p>Card</p></div>
+                <div style="display: flex;"><input type="radio"><p>SnapScan</p></div>
+            </div>
+            <br>
+            <label for="text">Notification Preference:</label><br>
+             <div class="radio">
+                <div style="display: flex;"><input type="radio"><p>SMS</p></div>
+                <div style="display: flex;"><input type="radio"><p>WhatsApp</p></div>
+                <div style="display: flex;"><input type="radio"><p>Email</p></div>
+            </div>
+            <br>
+            <input type="checkbox" id="terms" name="terms" required><br>
+            <label for="terms">I agree to the terms and conditions</label><br><br>
+            <div class="buttons">
+                <button type="submit" class="btn">Place Order</button>
+                <button type="reset" class="btn2">Clear Form</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
