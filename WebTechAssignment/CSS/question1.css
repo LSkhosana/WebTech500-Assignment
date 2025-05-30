@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(22, 22, 22);
+    font-family: Inter;
+}
+.heading{
+    background-color: rgb(78, 78, 78);
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 1rem;
+}
+
+.head-items{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.head-items h1{
+    font-size:60px ;
+    color:red;
+}
+.head-items h3{
+    font-size:30px ;
+    color: aqua;
+
+
+}
+.head-items p{
+    font-size:18px ;
+    color: white;
+
+}
+
+.Categories{
+    background-color: rgb(78, 78, 78);
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+    border-radius: 1rem;
+}
+
+.Categorie-items{
+    padding: 20px;
+}
+
+.Categories-head{
+    font-weight: bold;
+    color: red;
+   
+    text-align: left;
+    font-size: 29px;
+
+}
+
+.line{
+    border-bottom: 2px solid red;
+    width: 100%;
+}
+
+.list-1 li  {
+    color:aqua;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.info{
+    background-color: rgb(78, 78, 78);
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+    border-radius: 1rem;
+    padding: 20px;
+}
+
+.list-2 li, h3, h4{
+    color: white;
+}
+
+.list-2 h3, h4{
+    font-size: 30px;
+}
+
+.list-2 li{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
